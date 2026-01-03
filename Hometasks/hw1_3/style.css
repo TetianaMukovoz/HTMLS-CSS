@@ -1,0 +1,21 @@
+body{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+h2{
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+p{
+    margin-top: 25px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+}
