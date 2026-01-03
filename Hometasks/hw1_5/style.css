@@ -1,0 +1,26 @@
+body{
+    background-image: url("https://www.filminquiry.com/wp-content/uploads/2022/08/batman.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 5% 0 0 10%;
+}
+
+p{
+    background-color: rgba(121, 144, 154, 0.83);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+img{
+    height : 200px;
+    justify-content: center;
+    padding: 5% 30%;
+
+}
+div {
+    background-color: rgba(98, 131, 177, 0.71);
+    display: inline-block;
+    width: 300px;
+
+}
