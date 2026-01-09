@@ -1,0 +1,33 @@
+body{
+    background-color: lightgrey;
+}
+
+h1,h2{
+    text-align: center;
+    font-family: "Oriya MN";
+}
+
+p{
+    font-weight: bold;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.item{
+    text-align: center;
+    border: 1px solid beige;
+    border-radius: 30%;
+    width: 250px;
+    height: 250px;
+
+}
+
+.item img{
+    width: 200px;
+    height: 200px;
+}

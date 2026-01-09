@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    transition: 0.5s;
+}
+
+.item:hover{
+    background-color: cadetblue;
+    border-radius: 50%;
+    transition: 0.5s;
+}
