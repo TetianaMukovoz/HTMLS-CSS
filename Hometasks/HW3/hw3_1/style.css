@@ -1,0 +1,39 @@
+*{
+    font-weight: normal;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    margin: 10px;
+}
+
+header{
+    background-color: cornflowerblue;
+    text-align: center;
+    height: 20vh;
+    align-content: center;
+    font-size: xx-large;
+    color: aliceblue;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+main div{
+    background-color: royalblue;
+    text-align: center;
+    align-content: center;
+    font-size: x-large;
+    color: lightgrey;
+    width: 30%;
+    height: 45vh;
+    margin: 10px 0;
+}
+
+footer{
+    background-color: cornflowerblue;
+    text-align: center;
+    height: 70vh;
+    align-content: center;
+    font-size: xx-large;
+    color: aliceblue;
+}

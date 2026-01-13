@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: "Oriya MN", serif;
+    font-weight: normal;
+    scroll-behavior: smooth;
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    gap: 30px;
+}
+#section_one{
+    background-color: lightskyblue;
+}
+
+#section_two{
+    background-color: lightgreen;
+}
+
+#section_three{
+    background-color: lightpink;
+}
+h2{
+    font-size: xx-large;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+}
+
+p{
+    width: 90%;
+    font-size: large;
+}
