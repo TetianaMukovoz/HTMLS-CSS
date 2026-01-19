@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 4vh;
+    background: #D9D9D9;
+}
+
+main{
+    height: 74vh;
+    display: flex;
+}
+
+.sec_one{
+    width: 59vw;
+    background: #A4A4A4;
+}
+
+main aside{
+    width: 41vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside_one{
+    height: 54vh;
+    background: #7F7A7A;
+}
+
+.aside_two{
+    height: 46vh;
+    background: #615050;
+}
+
+footer{
+    height: 22vh;
+}
+
+.footer_one{
+    height: 10vh;
+    background: #D9D9D9;
+}
+
+.footer_two{
+    height: 12vh;
+    background: #AFA9A9;
+}
