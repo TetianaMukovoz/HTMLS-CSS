@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-color: #f8f0e9;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader{
+    font-size: xx-large;
+    font-family: "Pacifico", cursive;
+    color: #936565;
+}
+
+.loader::after{
+    content: "Loading";
+    animation: loading 3s infinite alternate;
+}
+
+@keyframes loading {
+    10%{
+        content: "Loading.";
+        opacity: 1;
+    }
+    50%{
+        content: "Loading..";
+    }
+    100%{
+        content: "Loading...";
+    }
+}

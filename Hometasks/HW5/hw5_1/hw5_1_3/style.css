@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+
+body{
+    background-color: #19191B;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader{
+    font-size: xx-large;
+    animation: loading 3s infinite alternate;
+    text-transform: uppercase;
+    font-family: "Sekuya", system-ui;
+    color: ghostwhite;
+}
+
+@keyframes loading {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.3);
+    }
+}
