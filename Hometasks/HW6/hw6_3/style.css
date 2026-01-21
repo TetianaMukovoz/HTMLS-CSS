@@ -1,0 +1,104 @@
+*{
+    font-family: "Orbitron", sans-serif;
+}
+header>img{
+    width: 250px;
+    height: 150px;
+}
+.page{
+    margin: 30px auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.top_wrapper{
+    padding-bottom: 30px;
+    border: gray 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+input[type="text"], input[type="password"]{
+    height: 30px;
+    width: 250px;
+    background-color: rgba(211, 211, 211, 0.14);
+    border: solid 1px lightgrey;
+}
+
+input[type="button"]{
+    background-color: #2fb4ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+main>p{
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+.facebook_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.facebook_wrapper>img{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.facebook_wrapper>p{
+    font-weight: bold;
+    color: darkblue;
+}
+.bottom_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bottom_wrapper>a{
+    text-decoration: none;
+    color: darkblue;
+}
+.bottom_wrapper>a:visited{
+    text-decoration: none;
+    color: darkblue;
+}
+
+footer{
+    border: gray 1px solid;
+    text-align: center;
+    padding: 10px;
+}
+
+footer>p>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2fb4ff;
+}
+
+footer>a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color: #2fb4ff;
+}
