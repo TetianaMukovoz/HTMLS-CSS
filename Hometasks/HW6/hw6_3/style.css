@@ -65,10 +65,18 @@ main>p{
     height: 20px;
 }
 
-.facebook_wrapper>p{
+.facebook_wrapper>a{
     font-weight: bold;
     color: darkblue;
+    text-decoration: none;
 }
+
+.facebook_wrapper>a:visited{
+    font-weight: bold;
+    color: darkblue;
+    text-decoration: none;
+}
+
 .bottom_wrapper{
     display: flex;
     flex-direction: column;
