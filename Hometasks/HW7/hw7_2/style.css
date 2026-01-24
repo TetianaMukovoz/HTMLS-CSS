@@ -53,7 +53,7 @@ header>nav>ul>li>a:visited{
 
 /*-----------Informative_section------------*/
 .informative_section{
-    padding-top: 113px;
+    padding-top: 15vh;
     height: 100vh;
     background-color: #24204A;
     display: flex;
@@ -82,7 +82,7 @@ header>nav>ul>li>a:visited{
     letter-spacing: 0.8px;
 }
 
-.information>h2{
+.information>h1{
     color: #FFF;
     font-family: "Inter", sans-serif;
     font-size: 36px;
