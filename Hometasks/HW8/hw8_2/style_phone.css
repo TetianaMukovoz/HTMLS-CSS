@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+    .wrapper{
+        margin: 32px 16px;
+        gap: 32px;
+    }
+    .box>h3, .box>p{
+        width: 343px;
+    }
+    .box>p{
+        line-height: 140%; /* 22.4px */
+    }
+}
